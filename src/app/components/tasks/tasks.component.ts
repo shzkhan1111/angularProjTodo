@@ -19,5 +19,9 @@ tasks:Task[] = [];
     // for an observable you do a subscribe which is like a promise 
     this.taskService.getTasks().subscribe( (tasks) => this.tasks = tasks )
   }
-
+  deleteTask(task :Task){
+    this.taskService.deleteTask(task).subscribe( () =>
+    //now filter the list 
+    (this.tasks = this.tasks.filter(t => t.id !== task.id)) )
+  }
 }
