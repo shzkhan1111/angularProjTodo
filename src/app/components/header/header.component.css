@@ -1,0 +1,8 @@
+header{
+    /* wan the  button to go on the side */
+    display: flex;
+/* push button to the right  */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
