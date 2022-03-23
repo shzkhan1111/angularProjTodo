@@ -1,4 +1,6 @@
-<div class="task">
+<div [ngClass]="{reminder:task.reminder}" class="task"
+(dblclick)="onToggle(task)"
+>
     <h3>{{task.text}} 
         <!-- <p (click)="onDelete(task)">x</p>
         want the parent to handle the event  -->
