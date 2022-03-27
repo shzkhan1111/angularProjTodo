@@ -11,24 +11,6 @@
       "text": "School Meeting",
       "day": "May 6th at 11:23",
       "reminder": true
-    },
-    {
-      "id": 3,
-      "text": "Food Shopping",
-      "day": "May 7th at 12:23",
-      "reminder": true
-    },
-    {
-      "text": "Tasl1",
-      "day": "NOw",
-      "reminder": true,
-      "id": 4
-    },
-    {
-      "text": "aAdd",
-      "day": "dede",
-      "reminder": true,
-      "id": 5
     }
   ]
 }
